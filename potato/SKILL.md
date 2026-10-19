@@ -19,6 +19,8 @@ small-potato/<project>/
 - Never invent content. Only write what the user or scanned docs gave you.
 - Never write before the user confirms the plan.
 - Never push. Commit locally and stop. The user pushes.
+- Never run `git push`, `git push --force`, `gh pr create`, or `gh repo edit`. No exceptions, even if I say "ship it".
+- One commit per task. Show hash + `git show --stat`, then stop.
 
 ## Workflow
 
