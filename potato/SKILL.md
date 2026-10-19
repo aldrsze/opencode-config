@@ -1,5 +1,5 @@
 ---
-name: Potato
+name: potato
 description: Create and update projects in the potato-projects docs repo (big-potato/small-potato). Use when the user wants to start a project, add docs to one, or update its status.
 ---
 
