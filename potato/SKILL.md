@@ -76,3 +76,11 @@ Show the hash and `git show --stat`. Then stop.
 ## Update flow
 
 User names a project → read its docs → ask what changed → edit → index → commit → stop.
+
+## Roadmap rules
+
+- Each milestone = one outcome you can demo, not a theme.
+- No "improve", "polish", "misc". If you can't check it, rewrite it.
+- Every row: outcome, done-when checklist, depends-on, risk.
+- Milestone 1 = smallest thing that works end to end.
+- Split any milestone over ~1 week of student work.
