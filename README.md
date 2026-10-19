@@ -22,6 +22,7 @@ Then add to `~/.config/opencode/opencode.jsonc` (Linux) or `%USERPROFILE%\.confi
 
 | Skill | What it does |
 | --- | --- |
+| `grill-idea` | Brainstorm a project idea, one question at a time |
 | `grill-prd` | Grill a PRD for gaps before coding |
 | `potato` | Create/update projects in `potato-projects` |
 | `starter` | Step-by-step guided project building |
