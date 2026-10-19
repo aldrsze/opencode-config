@@ -21,6 +21,7 @@ small-potato/<project>/
 - Never push. Commit locally and stop. The user pushes.
 - Never run `git push`, `git push --force`, `gh pr create`, or `gh repo edit`. No exceptions, even if I say "ship it".
 - One commit per task. Show hash + `git show --stat`, then stop.
+- Ask permission before every commit. Show the exact message, wait for my yes.
 
 ## Workflow
 
@@ -67,7 +68,8 @@ Link the folder. Status: `planning`, `active`, `done`, `paused`.
 
 ### 6. Commit
 
-`git add -A && git commit -m "<action>: <project>"`
+Ask first: show `git status --short` and the exact commit message. Wait for yes.
+Then `git add -A && git commit -m "<action>: <project>"`.
 
 Show the hash and `git show --stat`. Then stop.
 
