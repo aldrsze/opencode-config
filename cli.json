@@ -1,0 +1,20 @@
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "theme": {
+    "mode": "system",
+    "name": "vercel"
+  },
+  "session": {
+    "permissions": "prompt"
+  },
+  "tabs": {
+    "mode": "auto",
+    "scope": "global",
+    "layout": "horizontal",
+    "indicators": "numbers"
+  },
+  "attention": {
+    "sound": false,
+    "notifications": false
+  }
+}

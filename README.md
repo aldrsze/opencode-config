@@ -1,22 +1,46 @@
-# OpenCode Skills
+# OpenCode Config
 
-My personal OpenCode skills. Each folder is one skill with a `SKILL.md`.
+My personal OpenCode setup: global rules, CLI config, and skills.
+
+| Path | What it is |
+| --- | --- |
+| `AGENTS.md` | Global rules and style |
+| `opencode.jsonc` | Main config (agent, skills path) |
+| `cli.json` | TUI config (theme, tabs, permissions) |
+| `skills/` | Each folder is one skill with a `SKILL.md` |
 
 ## Install
 
-Works on Linux and Windows — no symlink needed.
+Linux/macOS:
 
 ```sh
-git clone https://github.com/aldrsze/opencode-skills ~/Projects/opencode-skills
+git clone https://github.com/aldrsze/opencode-config ~/Projects/opencode-config
 ```
 
-Then add to `~/.config/opencode/opencode.jsonc` (Linux) or `%USERPROFILE%\.config\opencode\opencode.jsonc` (Windows):
+Windows:
+
+```sh
+git clone https://github.com/aldrsze/opencode-config %USERPROFILE%\Projects\opencode-config
+```
+
+Point `skills` at the clone in `~/.config/opencode/opencode.jsonc`:
 
 ```jsonc
 {
-  "skills": ["~/Projects/opencode-skills"]
+  "skills": ["~/Projects/opencode-config/skills"]
 }
 ```
+
+Optional: symlink the files instead of copying, so edits stay in git.
+
+```sh
+cd ~/.config/opencode
+ln -sf ~/Projects/opencode-config/AGENTS.md AGENTS.md
+ln -sf ~/Projects/opencode-config/opencode.jsonc opencode.jsonc
+ln -sf ~/Projects/opencode-config/cli.json cli.json
+```
+
+`service.json` is machine-local and secret. Never commit it.
 
 ## Skills
 
