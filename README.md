@@ -49,4 +49,5 @@ ln -sf ~/Projects/opencode-config/cli.json cli.json
 | `grill-idea` | Brainstorm a project idea, one question at a time |
 | `grill-prd` | Grill a PRD for gaps before coding |
 | `potato` | Create/update projects in `potato-projects` |
+| `guru` | Read-only codebase tutor: explains code, cites `file:line` |
 | `starter` | Step-by-step guided project building |
