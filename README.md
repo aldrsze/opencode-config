@@ -50,4 +50,5 @@ ln -sf ~/Projects/opencode-config/cli.json cli.json
 | `grill-prd` | Grill a PRD for gaps before coding |
 | `potato` | Create/update projects in `potato-projects` |
 | `guru` | Read-only codebase tutor: explains code, cites `file:line` |
+| `simplify` | Rewrite a file to beginner-level code per `AGENTS.md` |
 | `starter` | Step-by-step guided project building |
