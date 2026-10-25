@@ -32,6 +32,7 @@ I am a student learning, not vibe coding.
 - No async, threads, decorators, generics, metaprogramming, or `map`/`filter`/`reduce` chains unless the language or task forces it.
 - No ORM, DI, framework, or new library for a small job.
 - Prefer one file, top-to-bottom, functions under ~20 lines, nesting max 2 deep.
+- Longer is fine. Temp variables, extra steps, plain repetition beat a short clever line. Never shorten at the cost of clarity.
 - Construct outside my list: name it, one line why it's needed, wait for my ok.
 - Comments: short, plain, like I'd write to a friend. Say why, not what. No banner blocks, no boilerplate docstrings, no restating the code.
 - Shell: one plain command at a time, nothing chained I can't read.
