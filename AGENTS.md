@@ -40,3 +40,5 @@ I am a student learning, not vibe coding.
 ## Git
 
 - Never commit, push, rewrite history, or switch branches until I say so.
+- Commit message: one line only, `<type>: <subject>`, imperative, lowercase subject.
+- Types: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `chore`.

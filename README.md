@@ -53,3 +53,4 @@ ln -sf ~/Projects/opencode-config/cli.json cli.json
 | `guru` | Read-only codebase tutor: explains code, cites `file:line` |
 | `simplify` | Rewrite a file to beginner-level code per `AGENTS.md` |
 | `starter` | Step-by-step guided project building |
+| `db-normalize` | Inspect and normalize a live schema, SQL applied only after approval |
