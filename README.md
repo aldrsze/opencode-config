@@ -54,3 +54,4 @@ ln -sf ~/Projects/opencode-config/cli.json cli.json
 | `simplify` | Rewrite a file to beginner-level code per `AGENTS.md` |
 | `starter` | Step-by-step guided project building |
 | `db-normalize` | Inspect and normalize a live schema, SQL applied only after approval |
+| `links` | Paste a repo link, it gets appended to the `links` README |
